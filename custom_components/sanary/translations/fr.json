@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sanary-sur-Mer",
+        "description": "Places libres des parkings Esplanade, Picotières-Leclerc et Arnaldi, à partir des données officielles de la ville de Sanary-sur-Mer (sanarysurmer.com).",
+        "data": {
+          "scan_interval": "Intervalle de récupération (secondes)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Cette intégration est déjà configurée."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Sanary-sur-Mer",
+        "description": "Ajustez la fréquence d'interrogation des données de la mairie. La modification est appliquée immédiatement, sans redémarrage.",
+        "data": {
+          "scan_interval": "Intervalle de récupération (secondes)"
+        }
+      }
+    }
+  }
+}

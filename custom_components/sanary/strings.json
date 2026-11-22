@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sanary-sur-Mer",
+        "description": "Free spaces for the Esplanade, Picotières-Leclerc and Arnaldi car parks, from the official data published by the city of Sanary-sur-Mer (sanarysurmer.com).",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This integration is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Sanary-sur-Mer",
+        "description": "Adjust how often the city hall data is polled. Changes are applied immediately, without a restart.",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}

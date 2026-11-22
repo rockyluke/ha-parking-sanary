@@ -1,0 +1,14 @@
+{
+  "domain": "sanary",
+  "name": "Sanary-sur-Mer",
+  "codeowners": ["@rockyluke"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/rockyluke/ha-sanary",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/rockyluke/ha-sanary/issues",
+  "loggers": ["sanary"],
+  "requirements": [],
+  "version": "1.4.2"
+}
